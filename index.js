@@ -8,7 +8,7 @@ const translate = require('translate-google-api');
 const { ApplicationCommandOptionType } = require('discord.js');
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, ModalBuilder, TextInputBuilder, TextInputStyle } = require('discord.js');
 const { joinVoiceChannel, createAudioPlayer, createAudioResource, AudioPlayerStatus, getVoiceConnection } = require('@discordjs/voice');
-//const { YoutubeiExtractor } = require('discord-player-youtubei');
+const { YoutubeiExtractor } = require('discord-player-youtubei');
 const { Schema, model } = require('mongoose');
 require('dotenv').config();
 const crypto = require('crypto');
@@ -63,7 +63,7 @@ const jokesData = JSON.parse(fs.readFileSync("jokes.json", "utf8"));
 
 const prefix = "!";
 // command prefix
-const token = "YOUR_BOT_TOKEN";
+const token = "MTM1MTA3MzgzNDE0ODgyMzA3MA.GvO1mQ.RkPbBgA19dwM6bp37PziKlXIawmbphmhuYUe-A";
 // write your bot token here... DONT SHARE IT (which is why i didnt put mine here)
 const propietarioID = '1317568519767982091';
 // Reemplaza 'TU_ID_DE_USUARIO' con tu ID de usuario de Discord.
