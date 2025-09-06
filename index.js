@@ -63,7 +63,7 @@ const jokesData = JSON.parse(fs.readFileSync("jokes.json", "utf8"));
 
 const prefix = "!";
 // command prefix
-const token = "MTM1MTA3MzgzNDE0ODgyMzA3MA.GvO1mQ.RkPbBgA19dwM6bp37PziKlXIawmbphmhuYUe-A";
+const token = "MTM1MTA3MzgzNDE0ODgyMzA3MA.GkUmLG.YV_rg7tU5EDw1NGHKJe4VQVcop_BG47oDRyrzk";
 // write your bot token here... DONT SHARE IT (which is why i didnt put mine here)
 const propietarioID = '1317568519767982091';
 // Reemplaza 'TU_ID_DE_USUARIO' con tu ID de usuario de Discord.
